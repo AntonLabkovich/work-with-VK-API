@@ -20,13 +20,13 @@ const DownloadApp = (props) => {
                                                                        className={'imgLogo'}/></a>
                             <div>
                                 <div>
-                                    <a href={item.googlePlay} target={"_blank"}><img src={"images/googlePlay.svg"}
+                                    <a href={item.googlePlay} target={"_blank"}><img src={"https://antonlabkovich.github.io/work-with-VK-API/images/googlePlay.svg"}
                                                                                      alt={""}
                                                                                      className={'iconMarket'}/>Google
                                         Play</a>
                                 </div>
                                 <div>
-                                    <a href={item.appStore} target={'showDownload'}><img src={"images/appStore.svg"} alt={""}
+                                    <a href={item.appStore} target={'showDownload'}><img src={"https://antonlabkovich.github.io/work-with-VK-API/images/appStore.svg"} alt={""}
                                                                                    className={'iconMarket'}/>App
                                         Store</a>
                                 </div>
