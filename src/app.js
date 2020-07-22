@@ -22,7 +22,7 @@ export default class App extends Component {
                 <div className={"container"}>
                     <Header/>
                     <Switch>
-                        <Route exact path="/" component={()=><MainPage handleClick={this.handleClick} vehicle={this.state.vehicle}/>}/>
+                        <Route exact path="/work-with-VK-API" component={()=><MainPage handleClick={this.handleClick} vehicle={this.state.vehicle}/>}/>
                         <Route exact path="/dist" component={()=><MainPage handleClick={this.handleClick} vehicle={this.state.vehicle}/>}/>
                         <Route exact path="/dist/infoSharing" component={()=><InfoSharing handleClick={this.handleClick} vehicle={this.state.vehicle}/>}/>
                         <Route exact path="/dist/newsSharing" component={()=><NewsSharing handleClick={this.handleClick} vehicle={this.state.vehicle}/>}/>
