@@ -1,0 +1,30 @@
+@keyframes moveVehicle{
+  0%{top:5px}
+  10%{top:7px}
+  20%{top:5px}
+  30%{top:7px}
+  40%{top:5px}
+  50%{top:7px}
+  60%{top:5px}
+  70%{top:7px}
+  80%{top:5px}
+  90%{top:7px}
+  100%{top:5px}
+}
+
+
+.vehicle{
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 40%;
+  animation: moveVehicle ease-out 3s;
+  img{
+    width: 40%;
+  }
+}
+
+
+.bike{
+  transform: scale(-1, 1);
+}
