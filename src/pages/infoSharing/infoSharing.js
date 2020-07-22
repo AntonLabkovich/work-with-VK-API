@@ -39,7 +39,7 @@ export default class InfoSharing extends Component {
     }
 
     componentDidMount() {
-        fetch('/data/dataSharing.json')
+        fetch('https://antonlabkovich.github.io/work-with-VK-API/data/dataSharing.json')
             .then(data => data.json())
             .then(items => {
                 const oneData = items.filter((item)=>(
